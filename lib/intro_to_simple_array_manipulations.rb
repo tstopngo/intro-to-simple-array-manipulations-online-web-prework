@@ -29,3 +29,11 @@ end
 def using_insert (array, element)
   array.insert(element[3])
 end
+
+def using_uniq(array)
+  array.uniq
+end
+
+def using_flatten(array)
+  array.flatten
+end 
